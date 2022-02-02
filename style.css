@@ -1,0 +1,50 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+  
+ul {
+    list-style-type: none;
+}
+
+.navigation h3 {
+    float: right;
+    padding: 0;
+    margin: 0%;
+    padding-right: 8em;
+    padding-top: 1em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(170, 159, 159);
+  }
+
+  .color {
+    color: var(--clr-primary-5);
+  }
